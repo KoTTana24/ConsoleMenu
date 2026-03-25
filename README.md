@@ -6,11 +6,11 @@
 # Functions and what it do
 
 
-### NewSpace - create new space with border
+### NewSpace - create new space with border(x,y)
 
 
-### NewVerticalCutSpace - create new space with cut on vertical
-### NewHorizontalCutSpace - create new space with cut on horizontal
+### NewVerticalCutSpace - create new space with cut on vertical(x,y, CordinateOfCut)
+### NewHorizontalCutSpace - create new space with cut on horizontal(x,y, CordinateOfCut)
 
 
 ### VerticalCutSpace - cut space on vertical by cordinate (x,y)
