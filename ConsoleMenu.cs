@@ -1,6 +1,7 @@
 using System;
 
 namespace ConsoleMenu
+{
 
 class ConsoleMenu
 {
@@ -127,4 +128,5 @@ class ConsoleMenu
         Console.Write(text);
         Console.CursorVisible = false;
     }
+}
 }
