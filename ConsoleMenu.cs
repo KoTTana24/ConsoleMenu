@@ -1,9 +1,11 @@
 using System;
 
+namespace ConsoleMenu
+
 class ConsoleMenu
 {
 
-   static void NewSpace(int CordX, int CordY) // void to create a space with border
+   public static void NewSpace(int CordX, int CordY) // void to create a space with border
     {
         Console.Clear();
         
@@ -33,7 +35,7 @@ class ConsoleMenu
     }
     
 
-    static void NewHorizontalCutSpace(int CordX, int CordY, int CutCord) // void to create a space with cut on horizontal
+    public static void NewHorizontalCutSpace(int CordX, int CordY, int CutCord) // void to create a space with cut on horizontal
    {
         Console.Clear();
         
@@ -66,7 +68,7 @@ class ConsoleMenu
         }
     }
 
-    static void NewVerticalCutSpace(int CordX, int CordY, int CutCord) // void to create a space with cut on vertical 
+    public static void NewVerticalCutSpace(int CordX, int CordY, int CutCord) // void to create a space with cut on vertical 
     {
         Console.Clear();
         
@@ -100,7 +102,7 @@ class ConsoleMenu
     }
 
 
-    static void VerticalCutSpace(int CordY, int CutCord) // void to cut a space on vertical
+    public static void VerticalCutSpace(int CordY, int CutCord) // void to cut a space on vertical
     {
         for (int v = 1; v < CordY - 1; v++) 
         {
@@ -109,7 +111,7 @@ class ConsoleMenu
         }
     }
     
-    static void HorizontalCutSpace(int CordX, int CutCord) // void to cut a space on horizontal
+    public static void HorizontalCutSpace(int CordX, int CutCord) // void to cut a space on horizontal
     {
         for (int h = 1; h < CordX - 1; h++) 
         {
@@ -119,7 +121,7 @@ class ConsoleMenu
     }
 
     
-    static void WriteTextAt(int x, int y, string text) // // void to write text on space
+    public static void WriteTextAt(int x, int y, string text) // // void to write text on space
     {
         Console.SetCursorPosition(x, y);
         Console.Write(text);
